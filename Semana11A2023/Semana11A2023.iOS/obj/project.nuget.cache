@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z09E25bAiCzmEytaLTFc/l/Pd6fIWkg9BOfZTV1khanAYuwW3qzZbLF5joSbuRpMIXXzIp8YKEJ5YuTxB02lzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aldai\\Downloads\\Lab11 - Multiplataformas\\Semana11A2023\\Semana11A2023\\Semana11A2023.iOS\\Semana11A2023.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aldai\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\aldai\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\aldai\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

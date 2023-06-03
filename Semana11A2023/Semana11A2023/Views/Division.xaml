@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana11A2023.Views.Division" Title="Division">
+    <ContentPage.Content>
+        <StackLayout Padding="15" BackgroundColor="#484848">
+            <Frame Padding="40" BackgroundColor="#8C8C8C" CornerRadius="20">
+                <StackLayout>
+                    <Label Text="Proceso de Division" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" FontAttributes="Bold , Italic"/>
+                </StackLayout>
+            </Frame>
+            <Entry Placeholder="Valor A" Text="{Binding ValorA}"></Entry>
+            <Entry Placeholder="Valor B" Text="{Binding ValorB}"></Entry>
+            <Button Text="Dividir" Command="{Binding Dividir}" BackgroundColor="#808080"/>
+            <Label  FontSize="Large" Text="Resultado de la Division:"></Label>
+            <Label  FontSize="Large" Text="{Binding ResultadoDividir}"></Label>
+            <Label  FontSize="Large" Text="{Binding MensajeError}"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
